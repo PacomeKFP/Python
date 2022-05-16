@@ -3,7 +3,7 @@ from random import *
 Errors = ("Alerte !, il n'y a pas de mot dans cette chaine", )#Ma liste d'erreurs possibles
 def main():
 
-    print('Bienvenus dans ce jeu')
+    print('Bienvenus dans ce jeu\n Les points sont comptés à partir du nombre de caractères utilisés pour former ta chaine !\n')
     score = [0, 0]
     Alphabet=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
     dic = open('fr.txt')
